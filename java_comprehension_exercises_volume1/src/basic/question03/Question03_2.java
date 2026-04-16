@@ -12,7 +12,7 @@ public class Question03_2 {
 		int basePrice = 1200;
 		int tickets = 3;
 		int reducedPrice = basePrice - 200;
-		int reducedTickets = tickets--;
+		int reducedTickets = tickets - 1;
 		int totalPrice = reducedPrice * reducedTickets;
 		double taxRate = 1.1;
 		double a = totalPrice * taxRate;
